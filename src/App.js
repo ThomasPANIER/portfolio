@@ -2,6 +2,7 @@
 import './App.css';
 
 import Nav from './components/layout/nav/Nav';
+// import Nav from './components/layout/nav/Nav1';
 
 import React from "react";
 import {
