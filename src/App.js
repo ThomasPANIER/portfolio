@@ -1,10 +1,12 @@
+
+import React from "react";
 //import logo from './logo.svg';
 import './App.css';
 
 import Nav from './components/layout/nav/Nav';
-// import Nav from './components/layout/nav/Nav1';
+import Biographie from './components/biographie/Biographie';
 
-import React from "react";
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,25 +19,25 @@ function App() {
       {/* <Header /> */}
       <Router>
         <Nav />
-        {/* <main className="container fluid">
+        <main className="container fluid">
           <Switch>
-            <Route path="/">
-              < />
+            <Route path="/biographie">
+              <Biographie />
             </Route>
-            <Route path="/">
+            {/* <Route path="/">
               < />
-            </Route>
-            <Route path="/">
-              <Conditions />
-            </>
-            <Route path="/news">
+            </Route> */}
+            {/* <Route path="/">
               < />
-            </Route>
-            <Route path="/">
+            </Route> */}
+            {/* <Route path="/">
               < />
-            </Route>
+            </Route> */}
+            {/* <Route path="/">
+              < />
+            </Route> */}
           </Switch>
-        </main> */}
+        </main>
       </Router>
       {/* <Footer /> */}
     </div>
