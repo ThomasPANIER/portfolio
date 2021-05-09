@@ -5,9 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #3b3646;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+nav {
+  background-color: #3b3646;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  font-size: 1.1rem;
+  color: #a29ca9;
+}
+
+header {
+  background-color: #3b3646;
+}
+
+footer {
+  background-color: #312d3a;
+}
+
+/* configuration pc */
+
+@media all and (min-width: 1024px) {
+  .disabled {
+    display: none;
+  }
 }

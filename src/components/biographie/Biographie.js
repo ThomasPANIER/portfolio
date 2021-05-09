@@ -1,9 +1,8 @@
 
-import React from "react";
 
 function Biographie() {
     return(
-        <section>
+        <section className="text-white">
             <h3>Biographie</h3>
             <p> 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet maximus lorem at sagittis.
