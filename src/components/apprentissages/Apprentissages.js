@@ -10,10 +10,37 @@ import img7 from './certificat_EcrivezDuJavaScriptPourLeWeb.jpg';
 
 function Apprentissages() {
     return(        
-        <section classNameName="">
-            <p>
-                Voici des exemples d'apprentissages supplémentaires en parallèle de ma 
-                formation de developpeur web et web mobile à l'afpa
+        <section>
+            <p className="apprentissageP fs-5 mt-5">
+                Liste des compétences et langages acquis au cours de ma formation de
+                 développeur Web et Web mobile à l'AFPA de Rouen :
+            </p>
+            <div className="apprentissageDiv row mt-4">
+                <div className="col-11 col-sm-6">
+                    <ul className="fw-bolder fs-5 mb-5">
+                        Versioning, testing et gestion de projet :
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div className="col-11 col-sm-6">
+                    <ul className="fw-bolder fs-5 mb-5">
+                        Outils utilisés :
+                        <li>GIT / GitHub</li>
+                        <li>REACT</li>
+                        <li>Node.js</li>
+                        <li>Symfony</li>
+                        <li>MySQL</li>
+                        <li>WordPress</li>
+                    </ul>
+                </div>
+            </div>
+            <p className="apprentissageP fs-5">
+                Voici les certificats d'apprentissages complémentaires que j'ai obtenus en plus de ma 
+                formation de developpeur Web et Web mobile.
             </p>
             <div id="carouselExampleInterval" className="carousel slide carousel-fade carousel-dark img-fluid" data-bs-ride="carousel">
                 <div className="carousel-inner">
@@ -48,9 +75,31 @@ function Apprentissages() {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-            <p>
-                Mes formations antécédentes à préciser.
+            <p className="apprentissageP fs-5 mt-5 mb-5">
+                Diplômes obtenus de formations antécédentes
             </p>
+            <table className="fs-5 m-auto mt-5 mb-5">
+                <tr className="">
+                    <th>Date</th>
+                    <th>Intitulé du diplôme</th>
+                </tr>
+                <tr>
+                    <td>1999-2001</td>
+                    <td>BEPA : Services, spécialités vente d'animaux</td>
+                </tr>
+                <tr>
+                    <td>2001-2003</td>
+                    <td>BAC Pro : Techninien conseil vente en animalerie</td>
+                </tr>
+                <tr>
+                    <td>2006-2007</td>
+                    <td>CAP Logistique</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>Attestation de capacité professionnelle en transport routier</td>
+                </tr>            
+            </table>
         </section>
     );
 }

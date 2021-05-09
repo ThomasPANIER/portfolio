@@ -39,6 +39,29 @@ footer {
   margin-bottom: 10%;
 }
 
+li {
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: normal;
+}
+
+td {
+  width: 70vw;
+  height: 15vh;
+  border: 1px solid black;
+  padding: 2%;
+}
+
+/* configuration smartphone */
+@media all and (max-width: 361) {
+  .apprentissageDiv {
+    margin-left: 25%;  
+  }
+  .apprentissageP {
+    text-align: justify;
+  }
+}
+
 /* configuration tablette */
 @media all and (min-width: 769px) {
   .contactP {
@@ -47,11 +70,16 @@ footer {
   }
 }
 
-
 /* configuration pc */
 @media all and (min-width: 1025px) {
   .contactP {
     margin-top: 5%;
     margin-bottom: 1%;
+  }
+  td {
+    width: 70vw;
+    height: 5vh;
+    border: 1px solid #a29ca9;
+    padding: 2%;
   }
 }
