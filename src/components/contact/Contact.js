@@ -3,7 +3,7 @@
 function Contact() {
     return(
         <section className="contact container-fluid text-white">
-            <p className="contactP fs-3">
+            <p className="contactP fs-4">
                 Je vous ai fait bonne impression ?
             </p>
             <div className="boxcontact">            
