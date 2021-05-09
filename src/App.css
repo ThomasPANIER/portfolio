@@ -1,21 +1,16 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 15vmin;
   pointer-events: none;
-  border-radius: 50%;
-  
-  
+  border-radius: 50%;  
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-section {
   background-image: url("./img/img_portfolio2.png");
   background-position: center;
@@ -29,25 +24,20 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-div {
   display: none;  
 }
-
 .App-p {
   margin-top: 5%;
 }
-
 .App-link {
   font-size: 1rem;
   text-decoration: none;
   color: #3b3646;
 }
-
 .App-link:hover {  
   color: #a29ca9;
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -56,7 +46,6 @@
     transform: rotate(360deg);
   }
 }
-
 /* configuration pc */
 @media all and (min-width: 1024px) {
   .App-div {
@@ -69,6 +58,5 @@
   }
   .App-div {
     margin-top: 6%;  
-  }
-  
+  }  
 }
