@@ -12,7 +12,6 @@ import Nav from './components/layout/nav/Nav';
 import Biographie from './components/biographie/Biographie';
 import Apprentissages from './components/apprentissages/Apprentissages';
 import Mesprojets from './components/mesprojets/Mesprojets';
-//import Chifoumi from './components/mesprojets/projet/chifoumi/Chifoumi';
 import Contact from './components/contact/Contact';
 import Footer from './components/layout/footer/Footer';
 
@@ -41,14 +40,6 @@ function App() {
             <Route path='/mesprojets'>
               <Mesprojets />
             </Route>
-              {/* <Switch>
-                <Route path='/mesprojets/chifoumi'>
-                  <Chifoumi />
-                </Route>
-              </Switch> */}
-            {/* <Route path='/'>
-              < />
-            </Route> */}
             <Route path='/'>
               <Logo />
             </Route>
