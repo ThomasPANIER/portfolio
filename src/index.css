@@ -47,7 +47,7 @@ li {
 
 td {
   width: 70vw;
-  height: 15vh;
+  height: 20vh;
   border: 1px solid #a29ca9;
   padding: 2%;
 }
@@ -72,6 +72,9 @@ td {
     margin-top: 10%;
     margin-bottom: -3%;
   }
+  td {
+    height: 10vh;
+  }
 }
 
 /* configuration pc */
@@ -81,9 +84,6 @@ td {
     margin-bottom: 1%;
   }
   td {
-    width: 70vw;
-    height: 5vh;
-    border: 1px solid #a29ca9;
-    padding: 2%;
+    height: 7vh;
   }
 }

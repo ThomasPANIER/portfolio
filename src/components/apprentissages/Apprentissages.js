@@ -10,7 +10,7 @@ import img7 from './certificat_EcrivezDuJavaScriptPourLeWeb.jpg';
 
 function Apprentissages() {
     return(        
-        <section>
+        <section className="container">
             <p className="apprentissageP fs-5 mt-5">
                 Liste des compétences et langages acquis au cours de ma formation de
                  développeur Web et Web mobile à l'AFPA de Rouen :
@@ -76,7 +76,7 @@ function Apprentissages() {
                 </button>
             </div>
             <p className="apprentissageP fs-5 mt-5 mb-5">
-                Diplômes obtenus de formations antécédentes
+                Diplômes obtenus de formations antécédentes.
             </p>
             <table className="fs-5 m-auto mt-5 mb-5">
                 <tr className="">
