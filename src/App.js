@@ -13,6 +13,7 @@ import Biographie from './components/biographie/Biographie';
 import Apprentissages from './components/apprentissages/Apprentissages';
 import Mesprojets from './components/mesprojets/Mesprojets';
 import Contact from './components/contact/Contact';
+import Allbreack from './components/allbreack/Allbreack';
 import Footer from './components/layout/footer/Footer';
 
 
@@ -24,8 +25,7 @@ import {
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="App">      
       <Router>
         <Nav />
         <Header />
@@ -47,6 +47,7 @@ function App() {
         </main>
       </Router>
       <Contact />
+      <Allbreack />
       <Footer />
     </div>
   );

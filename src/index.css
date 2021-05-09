@@ -56,6 +56,20 @@ td {
   text-align: justify;
 }
 
+.breackB {
+  border: 2px #3b3646;
+  height: 7vh;
+  width: 60vw;
+  border-radius: 5%;
+  transition-duration: 0.4s;
+}
+
+.breackB:hover {
+  background-color: #a29ca9;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 /* configuration smartphone */
 @media all and (max-width: 361) {
   .apprentissageDiv {
@@ -75,6 +89,10 @@ td {
   td {
     height: 10vh;
   }
+  .breackB {
+    height: 5vh;
+    width: 25vw;
+  }
 }
 
 /* configuration pc */
@@ -85,5 +103,9 @@ td {
   }
   td {
     height: 7vh;
+  }
+  .breackB {
+    height: 8vh;
+    width: 15vw;
   }
 }
