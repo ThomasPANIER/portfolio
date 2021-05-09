@@ -3,8 +3,8 @@
 function Contact() {
     return(
         <section className="contact container-fluid text-white">
-            <p className="contactP">
-                <h2>Je vous ai fait bonne impression ?</h2>
+            <p className="contactP fs-3">
+                Je vous ai fait bonne impression ?
             </p>
             <div className="boxcontact">            
                 <div className="contentcontact">                    
