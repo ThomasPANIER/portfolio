@@ -21,14 +21,14 @@ function Explore() {
 
     return(
         <section className="project mt-5 mb-5">
-            <p className="text-center text-white fs-6 fw-bolder">
-                Voici certaines de mes applications (jeux et sites web) developpées pendant ma formation.<br/>
+            <p className="projectP text-white fs-5 fw-bolder">
+                Voici certaines de mes applications (jeux et sites web) developpées pendant ma formation.
             </p>
-            <p className="">
-            En cliquant sur chaque projet vous accèderez à une version en ligne de celui-ci.<br/>
+            <p className="projectP">
+            En cliquant sur chaque projet vous accèderez à une version en ligne de celui-ci.
             </p>
-            <p className="">
-                Pour avoir accès à la chronologie de production de ces applications et<br/>
+            <p className="projectP">
+                Pour avoir accès à la chronologie de production de ces applications et
                 pour plus d'informations techniques vous pouvez cliquez
                 <a
                     className="liens"
