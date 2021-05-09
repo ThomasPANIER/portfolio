@@ -3,9 +3,12 @@
 function Contact() {
     return(
         <section className="contact container-fluid text-white">
-            <div className="boxcontact">
-                <div className="contentcontact">
-                    <h3>Pour me contacter</h3>
+            <p className="contactP fs-4">
+                Je vous ai fait bonne impression ?
+            </p>
+            <div className="boxcontact">            
+                <div className="contentcontact">                    
+                    <h3>Vous pouvez me contacter</h3>
                     <button>
                         <span>
                             <span>                        
