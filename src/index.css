@@ -35,10 +35,23 @@ footer {
   background-color: #312d3a;
 }
 
-/* configuration pc */
+.contactP {
+  margin-bottom: 10%;
+}
 
-@media all and (min-width: 1024px) {
-  .disabled {
-    display: none;
+/* configuration tablette */
+@media all and (min-width: 769px) {
+  .contactP {
+    margin-top: 5%;
+    margin-bottom: -3%;
+  }
+}
+
+
+/* configuration pc */
+@media all and (min-width: 1025px) {
+  .contactP {
+    margin-top: 5%;
+    margin-bottom: 1%;
   }
 }
