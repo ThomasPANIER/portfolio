@@ -1,43 +1,62 @@
-//import logo from './logo.svg';
+
+import React from 'react';
+
 import './App.css';
+import './customheader.css';
+import './customcontact.css';
+import './customproject.css';
 
+import Logo from './Logo';
+import Header from './components/layout/header/Header';
 import Nav from './components/layout/nav/Nav';
-// import Nav from './components/layout/nav/Nav1';
+import Biographie from './components/biographie/Biographie';
+import Apprentissages from './components/apprentissages/Apprentissages';
+import Mesprojets from './components/mesprojets/Mesprojets';
+//import Chifoumi from './components/mesprojets/projet/chifoumi/Chifoumi';
+import Contact from './components/contact/Contact';
+import Footer from './components/layout/footer/Footer';
 
-import React from "react";
+
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-} from "react-router-dom";
+} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
+      
       <Router>
         <Nav />
-        {/* <main className="container fluid">
+        <Header />
+        <main className="container-fluid">
           <Switch>
-            <Route path="/">
-              < />
+            <Route path='/biographie'>
+              <Biographie />
             </Route>
-            <Route path="/">
-              < />
+            <Route path='/apprentissages'>
+              <Apprentissages />
             </Route>
-            <Route path="/">
-              <Conditions />
-            </>
-            <Route path="/news">
-              < />
+            <Route path='/mesprojets'>
+              <Mesprojets />
             </Route>
-            <Route path="/">
+              {/* <Switch>
+                <Route path='/mesprojets/chifoumi'>
+                  <Chifoumi />
+                </Route>
+              </Switch> */}
+            {/* <Route path='/'>
               < />
+            </Route> */}
+            <Route path='/'>
+              <Logo />
             </Route>
           </Switch>
-        </main> */}
+        </main>
       </Router>
-      {/* <Footer /> */}
+      <Contact />
+      <Footer />
     </div>
   );
 }

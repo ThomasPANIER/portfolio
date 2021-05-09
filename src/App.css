@@ -3,8 +3,11 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 15vmin;
   pointer-events: none;
+  border-radius: 50%;
+  
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,9 +16,12 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-section {
+  background-image: url("./img/img_portfolio2.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,8 +30,22 @@
   color: white;
 }
 
+.App-div {
+  display: none;  
+}
+
+.App-p {
+  margin-top: 5%;
+}
+
 .App-link {
-  color: #61dafb;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #3b3646;
+}
+
+.App-link:hover {  
+  color: #a29ca9;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +55,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* configuration pc */
+@media all and (min-width: 1024px) {
+  .App-div {
+    display: block;
+  }
+  .App-link {
+    font-size: 1.5rem;
+    margin-top: 0;
+    color: white;
+  }
+  .App-div {
+    margin-top: 6%;  
+  }
+  
 }

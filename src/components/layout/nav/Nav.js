@@ -1,13 +1,14 @@
 
-import {Link} from "react-router-dom";
+import {Link} from 'react-router-dom';
 
 function Nav() {
     return(
-        <nav class="nav nav-pills flex-column flex-sm-row">
-            <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Active</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="#">Longer nav link</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
-            <a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <nav className="nav sticky-top nav-pills flex-column flex-sm-row">
+            <Link className="flex-sm-fill text-sm-center nav-link" aria-current="page" to='/'>Accueil</Link>
+            <Link className="flex-sm-fill text-sm-center nav-link" to='/biographie'>Biographie</Link>
+            <Link className="flex-sm-fill text-sm-center nav-link" to='/apprentissages'>Mes apprentissages</Link>
+            <Link className="flex-sm-fill text-sm-center nav-link" to='/mesprojets'>Mes projets</Link>
+            {/* <Link className="flex-sm-fill text-sm-center nav-link disabled" to='#'>En attente ... Mon CV</Link> */}
         </nav>
     );
 }
