@@ -4,7 +4,7 @@ function Biographie() {
     return(
         <section className="container text-white mt-5 mb-5">
             <h3>Biographie</h3>
-            <p className="biographieP"> 
+            <p className="biographieP mt-5"> 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet maximus lorem at sagittis.
                  Pellentesque tempus diam lorem, a vehicula risus sollicitudin a. Donec quam leo, mattis sit amet 
                  lorem id, feugiat mattis est. Mauris faucibus, sem sed accumsan pulvinar, lacus turpis sodales orci,
